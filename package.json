@@ -27,5 +27,13 @@
     "@types/express": "^4.16.1",
     "@types/morgan": "^1.7.35",
     "@types/node": "^10.12.20"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gurpreetk30/GurpreetKaur_Assignment1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gurpreetk30/GurpreetKaur_Assignment1/issues"
+  },
+  "homepage": "https://github.com/gurpreetk30/GurpreetKaur_Assignment1#readme"
 }
