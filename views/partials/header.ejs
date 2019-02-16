@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My website</title>
+  <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="Contents/app.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg  " >
+      <a href="#" class="pull-left"><img class="logo" src="Assets/images/gkLogogreen.png" style=""></a> 
+   <a class="navbar-brand" href="/" >Gurpreet's Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav lr-auto font-size:10px ">
+        <% if (title=="Home") {%>
+        <li class="nav-item active">
+          <% } else
+          {%>
+              <li class="nav-item">
+                <% } 
+          
+          %>
+          <a class="nav-link" href="/"><i class="fa fa-lg fa-building"></i> Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about"><i class="fa fa-lg fa-share"></i> About Me</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/projects"><i class="fa fa-lg fa-star"></i> My Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/services"><i class="fa fa-lg fa-star"></i> Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contactme"><i class="fa fa-lg fa-search"></i> Contact</a>
+          </li>
+      </ul>
+    </div>
+  </nav>
