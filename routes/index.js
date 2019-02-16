@@ -22,6 +22,6 @@ router.get('/services', function(req, res, next) {
 });
 /* GET home page. */
 router.get('/contactme', function(req, res, next) {
-  res.render('index', { title: 'Contact Me' });
+  res.render('contact', { title: 'Contact Me' });
 });
 module.exports = router;

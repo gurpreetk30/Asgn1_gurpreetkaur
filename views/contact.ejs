@@ -1,0 +1,55 @@
+<% include ./partials/header.ejs %>
+
+
+<div class="container">
+  <div style="background:rgb(238, 245, 241)!important" class="jumbotron">
+        <h5 style = "text-align:left"><b>Gurpreet Kaur</b></h5>
+        <br>
+        <p style = "text-align:left" >
+        <b>Address:</b> 62 Sundance Crescent , Scarborough,Ontario, M1G2M2<br>
+        <b>Contact Number:</b> (437)-998-9097<br>
+        <b>Email:</b> gurpreet9907@gmail.com
+        </p>
+        <br>
+        <div class="row">
+            <div class="col-md-offset-3 col-md-6">
+                
+                <form class="form" method ="POST">
+                    <div class="form-group" style="text-align:left;">
+                        <label for="" >First Name</label>
+                        <input type="text" placeholder="Enter First Name"
+                        class="form-control" id="FirstNameTextField" name="FirstNameTextField" required>
+                    </div>
+
+                    <div class="form-group" style="text-align:left;">
+                            <label for="">Last Name</label>
+                            <input type="text" placeholder="Enter Last Name"
+                            class="form-control" id="LastNameTextField" name="LastNameTextField" required>
+                        </div>
+
+                        <div class="form-group" style="text-align:left;">
+                                <label for="">Contact Number</label>
+                                <input type="text" placeholder="Enter Contact Number"
+                                class="form-control" id="ContactNumberTextField" name="ContactNumberTextField"required>
+                            </div>
+
+                         <div class="form-group" style="text-align:left;">
+                                <label for="">Email Address</label>
+                                <input type="text" placeholder="Enter email address"
+                                class="form-control" id="EmailTextField" name="EmailTextField"required>
+                            </div>
+                         <div class="form-group" style="text-align:left;">
+                                <label for="">Message</label>
+                                <input type="text" placeholder="Enter message"
+                                class="form-control" id="MessageTextField" name="MessageTextField"required>
+                            </div>
+                            
+                </form>
+                <h4 class="text-center"><a class="btn btn-primary btn-lg" href="/" role="button"> Submit </a></h4>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+<% include ./partials/footer.ejs %>
