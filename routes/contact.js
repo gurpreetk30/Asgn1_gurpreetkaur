@@ -9,6 +9,7 @@ let contactModel = require ('../models/contact');
 
 /* GET contact list page - READ */
 router.get('/contact',(req,res,next) => {
+    console.log("contactList");
     console.log(contactList);
 
 
@@ -17,7 +18,7 @@ router.get('/contact',(req,res,next) => {
 //GET the ADD page for the contact list
 
 router.get('/contact',(req,res,next) => {
-
+    console.log("contactList");
     res.render('/contact', {
         title :"Add a new contact"
     });
@@ -27,7 +28,7 @@ router.get('/contact',(req,res,next) => {
 
 //process add page
 router.post('/contact', (req,res,next) =>{
-
+    console.log("contactList");
     console.log(req.body);
    
 
